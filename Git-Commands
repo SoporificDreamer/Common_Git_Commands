@@ -1,0 +1,35 @@
+Interesting Git Commands + Most Used Git Commands:
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+1. git pull
+2. git push origin "branch name"
+
+3. git status
+4. git diff: Files not yet staged
+
+5. git add -A .: Adds all files for staging
+6. git commit -m "Message to be added
+
+7. git reset "commit": Undoes all commits; Preserves changes locally
+8. git reset --hard "commit": Discards all history to that commit point
+
+9. git diff "first-branch" "second-branch": Shows the difference between the branches
+10. git log: Version history for the branch
+11. git log --follow "file": Version history for a file
+
+12. git rm "file": Deletes file from working directory and stages deletion
+13. git rm --cached "file": Removes the file from version control but keeps local copy
+
+14. git config --global user.name "name": Changes user name
+15. git config --global user.email "email address": Changes email address
+
+16. git config --global color.ui auto: Adds color :D
+
+17. git init "Project Name": Initializes git
+18. git clone "URL": Clone and download project
+
+19. git commit -- amend -c Head: Change the commit message for previous commit
+20: git push -f origin "branch name": Force push
+
+21. git remote add origin "remote repository URL": Sets the new remote
+22. git remote -v: Verifies the new Remote URL
